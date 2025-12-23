@@ -15,4 +15,8 @@ public class mainControll {
     public String indexMap(){
         return "index.html";
     }
+    @GetMapping("/users")
+    public String UsersMap(){
+        return "userPage.html";
+    }
 }
