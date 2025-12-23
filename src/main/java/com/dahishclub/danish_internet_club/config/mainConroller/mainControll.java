@@ -10,4 +10,9 @@ public class mainControll {
     public String mainMap(){
         return "index.html";
     }
+
+    @GetMapping("/index")
+    public String indexMap(){
+        return "index.html";
+    }
 }
